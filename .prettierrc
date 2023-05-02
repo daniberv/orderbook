@@ -1,0 +1,27 @@
+{
+	"trailingComma": "es5",
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": false,
+	"singleQuote": true,
+	"importOrder": [
+		"<THIRD_PARTY_MODULES>",
+		"^@/layots/(.*)$",
+		"^@/pages/(.*)$",
+		"^@/components/(.*)$",
+		"^@/hooks/(.*)$",
+		"^@/services/(.*)$",
+		"^@/utils/(.*)$",
+		"^@/configs/(.*)$",
+		"^@/stores/(.*)$",
+		"^@/providers/(.*)$",
+		"^@/styles/(.*)$",
+		"^@/contexts/(.*)$",
+		"^@/ui/(.*)$",
+		"^../(.*)",
+		"^./(.*)",
+		"(.scss)$"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
+}

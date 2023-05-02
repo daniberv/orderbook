@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/components/OrderBook/*"],
+			"@/components/*": ["./src/components/OrderBook/*"],
+			"@/hooks/*": ["./src/components/OrderBook/hooks/*"],
+			"@/providers/*": ["./src/components/OrderBook/providers/*"],
+			"@/services/*": ["./src/components/OrderBook/services/*"],
+			"@/utils/*": ["./src/components/OrderBook/utils/*"],
+			"@/configs/*": ["./src/components/OrderBook/configs/*"],
+			"@/store/*": ["./src/components/OrderBook/store/*"],
+			"@/ui/*": ["./src/components/OrderBook/ui/*"]
+		}
+	}
+}
